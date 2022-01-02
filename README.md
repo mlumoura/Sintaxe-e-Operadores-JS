@@ -1,0 +1,1 @@
+# Atividade prática do módulo Sintaxe e Operadores da profa. Stephany Nusch 
