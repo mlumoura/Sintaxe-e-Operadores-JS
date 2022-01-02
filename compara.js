@@ -1,4 +1,4 @@
-console.log(ComparaNumeros(10, 10));
+console.log(ComparaNumeros(5, 5));
 
 
 function ComparaNumeros (num1, num2) {
@@ -50,15 +50,7 @@ function Soma(message, num1, num2)  {
         resultComp20 = "igual a 20";
     }
 
-    if ((resultComp10 != "") && (resultComp20 != "")) {
-        var result = `${resultComp10} e ${resultComp20}`;
-    }
-    else if  (resultComp10 != "") {
-        var result = `${resultComp10}`;
-    }
-    else {
-        var result = `${resultComp20}`;
-    }
+    var result = `${resultComp10} e ${resultComp20}`;
 
     message = message +  result;
 
