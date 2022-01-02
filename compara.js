@@ -5,7 +5,7 @@ function ComparaNumeros (num1, num2) {
 
     if (!num1 && !num2) {return 'Digite dois números!'}
 
-    var message = `Os números ${num1} e ${num2}`;
+    let message = `Os números ${num1} e ${num2}`;
 
     message = ComparaNumerosIguais(message, num1, num2)
 
@@ -23,8 +23,8 @@ function ComparaNumerosIguais(message, num1, num2) {
 
 // Confira se a soma dos números é maior que 10 ou menor que 20.
 function Soma(message, num1, num2)  {
-    var resultComp10 = "";
-    var resultComp20 = "";
+    let resultComp10 = "";
+    let resultComp20 = "";
 
     let soma = num1 + num2;
 
