@@ -50,9 +50,7 @@ function Soma(message, num1, num2)  {
         resultComp20 = "igual a 20";
     }
 
-    var result = `${resultComp10} e ${resultComp20}`;
-
-    message = message +  result;
-
-    return message;
+   message = message + `${resultComp10} e ${resultComp20}`;
+    
+   return message;
 } 
