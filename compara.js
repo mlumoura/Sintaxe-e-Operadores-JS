@@ -1,13 +1,13 @@
-console.log(ComparaNumeros(5, 5));
+console.log(comparaNumeros(5, 5));
 
 
-function ComparaNumeros (num1, num2) {
+function comparaNumeros (num1, num2) {
 
     if (!num1 && !num2) {return 'Digite dois números!'}
 
     let message = `Os números ${num1} e ${num2}`;
 
-    message = ComparaNumerosIguais(message, num1, num2)
+    message = comparaNumerosIguais(message, num1, num2)
 
     message = Soma(message, num1, num2) 
  
@@ -15,7 +15,7 @@ function ComparaNumeros (num1, num2) {
 }
 
 // Confira se os números são iguais
-function ComparaNumerosIguais(message, num1, num2) {
+function comparaNumerosIguais(message, num1, num2) {
     message = num1 === num2 ?  message = message + " são iguais."  : message = message + " não são iguais." ;   
     return (message);
 }
